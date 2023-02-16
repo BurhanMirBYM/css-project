@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0; 
+    
+    background-size: cover; 
+}
+ .hero{
+     height: 100vh;
+     width: 100%;
+     background-size: cover;
+    background-color: azure;     
+ }
+ .logo{
+     color: black;
+     font-size: 28px;
+ }
+ span{
+     color: brown;
+ }
+
+ nav{
+     padding-top: 20px;
+     padding-left: 10px;
+     padding-right: 10px;
+     display: flex;
+     justify-content:space-between;
+ }
+nav ul li a:hover{
+    color: red;
+    transition: .5s;
+}
+ nav ul li{
+     
+     margin: 20px;
+     display:inline-block;
+ }
+ nav ul li a{
+     text-decoration: none;
+     color:rgb(32, 31, 31);
+     font-weight: bold;
+     margin: 20px 10px;
+  } 
+   .context{
+     display: flex;
+     flex-wrap:wrap;
+     flex: 1;
+     background-color: black;
+ }  
+ img{
+    width: 400px;
+    height: 300px;
+    margin: 20px 10px;
+    border-radius: 2px;
+    transition: all 1s;
+    border-radius: 2%;
+    
+ }
+ .forest{
+     background-color:coral;
+     margin:10px 20px;
+     padding: 10px;
+     border-radius: 10px;
+     
+    
+ }
+ p{
+    color: aliceblue;
+ }
+ h3{
+    color: brown;
+ }
+ .forest{
+     display: flex;
+     flex-direction:column;
+     flex: 1 30%;
+     margin: 10px;
+     border-radius: 5%;
+     cursor: pointer;
+ }
+ .btn{
+    font-size: 15px;
+    color: whitesmoke;
+    cursor:pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    background-color: transparent;
+    border-radius: 100%;
+    border-color: azure;
+ }
+ .btn:hover{
+    color:red;
+    transition: 1s;
+ }
+ footer{
+    
+    color: black;
+    text-align: center;
+    background-image: url(https://img.theculturetrip.com/768x/smart/wp-content/uploads/2018/01/14119916142_48610f66ff_b.jpg)
+    }
+    .forest:hover{
+        color: gray;
+        background-color: grey;
+        transition: 1s;
+        box-shadow: 0 8px 16px 0 rgba(red, green, blue, alpha);
+}
+    
+ 
+ 
